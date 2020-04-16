@@ -3,7 +3,7 @@ This is a patched version of uncompyle2 that has been modified to decompile the 
 
 ## Modifications
 The following modifications have been made to get this to work with PyXie bytecode:
-* Patched _load_file() to skip the version check and load the code object from the begining of the file.
+* Patched _load_module() to skip the version check and load the code object from the begining of the file.
 * Added a copy of the Python 2.7 dis.py to uncompyle2 directory. This ultimately forces uncompyle2 to attempt to load opcode.py from this directoy.
 * Added a copy of the Python 2.7 opcode.py and modified it to redefine the known remapped opcodes. 
 
