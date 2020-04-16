@@ -1,5 +1,5 @@
 # Uncompyle-Pyxie POC
-This is a patched version of uncompyle2 that has been modified to decompile the PyXie RAT bytecode from the PyXie write up.
+This is a patched version of uncompyle2 that has been modified to decompile the pyx bytecode from the PyXie RAT write up.
 
 ## Modifications
 The following modifications have been made to get this to work with PyXie bytecode:
