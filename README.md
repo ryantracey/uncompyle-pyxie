@@ -1,4 +1,4 @@
-# Uncompyle-Pyxie 
+# Uncompyle-Pyxie POC
 This is a patched version of uncompyle2 that has been modified to decompile the PyXie RAT bytecode from the PyXie write up.
 
 ## Modifications
@@ -12,7 +12,6 @@ Python 2.7 is required to run this
 ```
 python uncompyle2.py pyXie_bytecode.pyx
 ``` 
-
 
 
 
