@@ -10,7 +10,7 @@ The following modifications have been made to get this to work with PyXie byteco
 ## Usage
 Python 2.7 is required to run this
 ```
-python uncompyle2.exe pyXie_bytecode.pyx
+python uncompyle2.py pyXie_bytecode.pyx
 ``` 
 
 
