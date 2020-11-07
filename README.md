@@ -21,5 +21,6 @@ python uncompyle2.py pyXie_bytecode.pyx
 ## Ref: 
 Uncompyle2 -  https://github.com/wibiti/uncompyle2
 
-Palo Alto Networks Unit42 write up - Palo Alto Networks Unit42 write up - Unit 42 
+Palo Alto Networks Unit42 write up - https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/
+
 BlackBerry Cylance write up -  https://threatvector.cylance.com/en_us/home/meet-pyxie-a-nefarious-new-python-rat.html
