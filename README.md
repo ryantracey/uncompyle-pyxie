@@ -1,5 +1,5 @@
 # Uncompyle-Pyxie POC
-This is a patched version of uncompyle2 that has been modified to decompile the pyx bytecode from the BlackBerry Cylance PyXie RAT write up.
+This is a patched version of uncompyle2 that has been modified to decompile the pyx bytecode from the BlackBerry Cylance and Palo Alto Networks PyXie RAT write ups.
 
 ## Modifications
 The following modifications have been made to get this to work with PyXie bytecode:
@@ -9,6 +9,9 @@ The following modifications have been made to get this to work with PyXie byteco
 
 ## Usage
 Python 2.7 is required to run this
+
+Depending on what variant of PyXie you are decompiling, you will need to replace the "opcodes.py"  in the "uncompyle2" directory with the appropriate one from the "PyXie Opcodes" directory. 
+
 ```
 python uncompyle2.py pyXie_bytecode.pyx
 ``` 
@@ -18,4 +21,5 @@ python uncompyle2.py pyXie_bytecode.pyx
 ## Ref: 
 Uncompyle2 -  https://github.com/wibiti/uncompyle2
 
-PyXie write up -  https://threatvector.cylance.com/en_us/home/meet-pyxie-a-nefarious-new-python-rat.html
+Palo Alto Networks Unit42 write up - Palo Alto Networks Unit42 write up - Unit 42 
+BlackBerry Cylance write up -  https://threatvector.cylance.com/en_us/home/meet-pyxie-a-nefarious-new-python-rat.html
